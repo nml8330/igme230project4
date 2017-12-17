@@ -1,0 +1,140 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    padding-left: 50px;
+    color: #111111;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    color: #111111;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #111111;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    color: #111111;
+    padding-left: 100px;
+}
+
+#backArrow {
+    float: left;
+    width: 60px;
+    margin: 0px 20px 0px 20px;
+}
+
+#container {
+    margin: auto;
+    width: 1000px;
+    height: 500px;
+}
+
+#colorBankArea {
+    position: absolute;
+    top: 150px;
+    left: 0px; right: 0px;
+    margin-left: auto; margin-right: auto;
+    width: 1080px;
+    height: 525px;
+    z-index: -1;
+}
+
+#colorBank {
+    position: absolute;
+    bottom: 0px;
+    left: 0px; right: 0px;
+    width: 100%;
+    height: 240px;
+    background-color: #dddddd;
+}
+
+#light {
+    position: absolute;
+    top: 70px;
+    left: -10px;
+    z-index: 99;
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+    /* IE */
+    -ms-transform: rotate(-90deg);
+    /* Opera */
+    -o-transform: rotate(-90deg);
+}
+
+#dark {
+    position: absolute;
+    top: 200px;
+    right: 10px;
+    z-index: 99;
+    /* Safari */
+    -webkit-transform: rotate(-270deg);
+    /* Firefox */
+    -moz-transform: rotate(-270deg);
+    /* IE */
+    -ms-transform: rotate(-270deg);
+    /* Opera */
+    -o-transform: rotate(-270deg);
+}
+
+#submit {
+    position: absolute;
+    display: inline-block;
+    top: 700px;
+    left: 457px;
+    width: 100px;
+    height: 50px;
+    background-color: #dddddd;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    color: #111111;
+    text-align: center;
+    text-decoration: none;
+    
+    -webkit-transition: .5s; /* Safari */
+    transition: .5s;
+}
+
+#submit:hover {
+    background-color: #111111;
+    color: #ffffff;
+}
+
+#labelScore {
+    position: absolute;
+    top: 700px;
+    left: 700px;
+}
+
+#score {
+    position: absolute;
+    top: 700px;
+    left: 800px;
+    width: 90px;
+    height: 50px;
+    padding-left: 10px;
+    background-color: white;
+    border: 4px solid black;
+}
