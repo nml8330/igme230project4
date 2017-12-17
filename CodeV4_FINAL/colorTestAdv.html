@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/colorTestAdv.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,600" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Project 4 - Test Embellishment</title>
+        <script src="https://cdn.rawgit.com/konvajs/konva/1.7.3/konva.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    </head>
+    
+    <body onload="layeringBoxes()">
+        <a href="index.html"><img src="img/backArrow.png" alt="Back" id="backArrow"></a>
+        <h1>How well can you see <span style="color:red">color</span>?</h1>
+        <h4>Drag the colored boxes in the correct order from a gradient of light to dark.
+            <br>Score 1 point for each correct box for a max of 20 points.</h4>
+    <!-- Drag and Drop Code from https://konvajs.github.io/docs/drag_and_drop/Drag_and_Drop.html -->
+        <div id="container"></div>
+        
+        <div id="colorBankArea">
+            <h2 id="light">LIGHT</h2>
+            <h2 id="dark">DARK</h2>
+            <div id="colorBank"></div>
+        </div>
+        
+        <div>
+            <input id="submit" type="button" value="Done!" onclick="scoreFunction();" />
+            <h2 id="labelScore">Score:</h2>
+            <div id="score">
+                <h3 id="finalScore"></h3>
+            </div>
+        </div>
+        
+        <script type="text/javascript" src="js/colorTestAdv.js"></script>
+        
+    </body>
+</html>
