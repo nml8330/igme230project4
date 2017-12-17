@@ -1,0 +1,118 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #eeeeee;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    padding-left: 50px;
+    color: #222222;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    color: #eeeeee;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #111111;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    color: #111111;
+}
+
+#backArrow {
+    float: left;
+    width: 60px;
+    margin: 0px 20px 0px 20px;
+}
+
+.item h2 {
+    float: left;
+    margin: 35px 0px 0px 25px;
+}
+
+.item ul li h2 {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.item ul {
+    list-style-type: none;
+}
+
+.item li a {
+    display: block;
+    text-decoration: none;
+    width: 50px;
+    margin: 0px 10px 0px 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #990510;
+    color: #eeeeee;
+    
+    -webkit-transition: .5s; /* Safari */
+    transition: .5s;
+}
+
+.item li a:hover {
+    border-radius: 10px;
+    background-color: #222222;
+}
+
+/*MAIN CONTENT*/
+#container {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    margin: 0px;
+    bottom: 0px;
+    width: 100vw;
+    height: 900px;
+    background-color: #eb403e;
+}
+
+#buttons {
+    float: right;
+    width: 310px;
+    margin-bottom: 20px;
+}
+
+.description {
+    clear: both;
+    margin: auto;
+    padding: 1px 20px 20px 20px;
+    width: 80%;
+    height: 600px;
+    background-color: #eeeeee;
+    text-align: left;
+}
+
+@media screen and (max-width: 515px) {
+    #buttons {
+        float: left;
+    }
+}
