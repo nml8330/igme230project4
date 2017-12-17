@@ -34,6 +34,13 @@ h4 {
     color: #111111;
 }
 
+h4 strong {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #111111;
+}
+
 #backArrow {
     float: left;
     width: 60px;
@@ -91,7 +98,7 @@ h4 {
     margin: 0px;
     bottom: 0px;
     width: 100vw;
-    height: 900px;
+    height: auto;
     background-color: #eb403e;
 }
 
@@ -104,9 +111,10 @@ h4 {
 .description {
     clear: both;
     margin: auto;
-    padding: 1px 20px 20px 20px;
+    margin-bottom: 100px;
+    padding: 1px 20px 20px;
     width: 80%;
-    height: 600px;
+    height: auto;
     background-color: #eeeeee;
     text-align: left;
 }
